@@ -183,20 +183,12 @@ class job51(object):
     
     
 if __name__ == '__main__':
-    # [职位，学历要求，工作经验]
-    # ['数据采集', '本科', '5年']
-    # '数据分析', '大专', '5年'
-    job51_1 = job51('数据分析', '大专', '5年')
-    job51_1.click_search_page()
-    job51_1.for_all_details()
-    # '数据采集', '数据分析', '数据建模', '数据仓库', '信息管理', '会计'
-    
-    # positions = ['数据分析']
-    # xueli = ['大专']
-    # ts = ['应届', '5年']
-    # for p in positions:
-        # for l in xueli:
-            # for t in ts:
-                # job51_1 = job51(p, l, t)
-                # job51_1.click_search_page()
-                # job51_1.for_all_details()
+    positions = ['数据采集', '数据分析', '数据建模', '数据仓库', '信息管理', '会计']
+    xueli = ['大专', '本科', '硕士']
+    ts = ['应届', '5年']
+    for p in positions:
+        for l in xueli:
+            for t in ts:
+                job51_1 = job51(p, l, t)
+                job51_1.click_search_page()
+                job51_1.for_all_details()
