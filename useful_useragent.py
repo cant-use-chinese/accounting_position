@@ -38,10 +38,3 @@ def useful_useragent():
         'User-Agent': random.choice(User_Agent_list)
     }
     return headers
-
-
-    # 会计
-    # 信息管理
-    # 数据分析等等
-    # 大学毕业生， 3-5年
-    # 学历：专科、本科、硕士
