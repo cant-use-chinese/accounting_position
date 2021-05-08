@@ -72,8 +72,8 @@ def info_to_csv(url):
             
             
 if __name__ == '__main__':
-    positions = ['数据分析'] #'会计', '信息管理', '数据仓库'  , '数据采集'
-    xueli = ['本科', '硕士'] # '大专', 
+    positions = ['数据分析', '会计', '信息管理', '数据仓库'  , '数据采集'] #
+    xueli = ['大专', '本科', '硕士'] #  
     ts = ['深圳', '北京', '上海', '广州', '郑州']
 
     for key_word_1 in positions:
